@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: test.java.com.actpro.MyFirstTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 6.863 s <<< FAILURE! - in test.java.com.actpro.MyFirstTest
+Login(test.java.com.actpro.MyFirstTest)  Time elapsed: 6.788 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(), 'Добавить пользователя')]"}
+  (Session info: chrome=76.0.3809.100)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'vitalij-Lenovo-ideapad-320S-15IKB', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-55-generic', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: /tmp/.com.google.Chrome.T7ei5d}, goog:chromeOptions: {debuggerAddress: localhost:43169}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 149a7e487fa3f0ae08174c0342c24b70
+*** Element info: {Using=xpath, value=//a[contains(text(), 'Добавить пользователя')]}
+	at test.java.com.actpro.MyFirstTest.Login(MyFirstTest.java:24)
+
